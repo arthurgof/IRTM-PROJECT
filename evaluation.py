@@ -88,20 +88,7 @@ def similarity(one, two):
     return similarity
 
 
-dicoPerso = {
-    "dany": "Daenerys Targaryen",
-    "daenerys": "Daenerys Targaryen",
-    "jon snow": "Jon Snow",
-    "jon": "Jon Snow",
-    "tyrion": "Tyrion Lannister",
-    "bran": "Bran Stark",
-    "khal drogo": "Drogo",
-    "ned": "Eddard Stark",
-    "viserys": "Viserys Targaryen",
-    "loras": "Loras Tyrell",
-    "ser jorah": "Jorah Mormont",
-    "sam": "Samwell Tarly",
-}
+dicoPerso = {}
 
 
 def evaluate_bertopic(
